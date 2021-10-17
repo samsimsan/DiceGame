@@ -35,6 +35,6 @@ function shuffler() {
     document.querySelector('.name2').classList.add("losser");
   }
   document.querySelector('.the_diceL').firstElementChild.src = 'dice_'+l+'.jpg';
-  document.querySelector('.the_diceR').firstElementChild.src = 'file:///C:/Users/Hp/Documents/web%20development/DOM/dice_'+r+'.jpg';
+  document.querySelector('.the_diceR').firstElementChild.src = 'dice_'+r+'.jpg';
 
 }
