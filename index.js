@@ -30,7 +30,7 @@ function shuffler() {
     document.querySelector('.name1').classList.add("winner");
     document.querySelector('.name2').classList.add("losser");
   }
-  document.querySelector('.the_diceL').src = 'file:///C:/Users/Hp/Documents/web%20development/DOM/dice_'+l+'.jpg';
-  document.querySelector('.the_diceR').src = 'file:///C:/Users/Hp/Documents/web%20development/DOM/dice_'+r+'.jpg';
+  document.querySelector('.the_diceL').src = "dice_"+l+"".jpg";
+  document.querySelector('.the_diceR').src = "dice_"+r+"".jpg";
 
 }
