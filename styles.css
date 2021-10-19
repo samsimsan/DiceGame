@@ -1,0 +1,85 @@
+body{
+  background-color: #363940;
+  color:white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  margin: 1rem 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 70px;
+}
+
+a{
+  color: white;
+}
+
+.fa-twitter:hover{
+color: #C7FFD8;
+}
+.fa-facebook-f:hover{
+color:#9FD8DF;
+}
+.fa-instagram:hover{
+  color:#DF7861;
+}
+.fa-envelope:hover{
+  color:#FF4646;
+}
+
+.mybutton{
+    height: 50px;
+    color: white;
+    background-color:#3FC5F0;
+    transition: 0.25s;
+    border-radius: 5px;
+    border: 0;
+    font-size:1.25rem;
+    margin: 2rem 0 0;
+
+}
+
+.mybutton:hover{
+    background-color: #42DEE1;
+}
+
+.mybutton:active{
+    background-color:#4F98CA;
+    border-radius:10px;
+}
+
+img{
+  width: 35%;
+}
+
+.footer{
+  margin: 1rem 0 0;
+  /* position: absolute;
+  bottom: 0; */
+  font-family: 'Caveat', cursive;
+}
+
+.footer p{
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.logo{
+  padding:0 1% 1% 1%;
+}
+
+/* class css for js */
+.winner{
+  color: #77D970;
+}
+.winner:hover{
+  color:#8DFF85;
+}
+
+.losser{
+  color: #FF7171;
+}
+.losser:hover{
+  color: #FF4646;
+}
